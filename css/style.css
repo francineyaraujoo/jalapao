@@ -1,0 +1,199 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-top {
+    background-color: #E7662C !important;
+}
+
+.navbar-nav {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-nav .nav-item {
+  background-color: #FFCD00;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: rgba(0, 153, 208, 0.671);
+  border-radius: 5px;
+  color: #E7662C;
+  
+}
+
+form .botoes {
+  padding: 2%!important;
+  margin: 0% 2% 0 1 !important;
+}
+
+.botao-pesquisa {
+  padding: 2% !important;
+  margin: 0% 2% 1 !important;
+}
+
+.form-pesquisa {
+  padding: 0;
+  margin: 0;
+
+}
+
+
+.img-car {
+    max-height: 600px !important;
+}
+
+.divisao {
+    background-color: #E7662C !important;
+}
+
+.sec-pacotes {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 0.5% !important;
+}
+
+.card {
+    padding: 0.5% !important;
+    margin: 0% 0.5% 0.9% !important;
+
+}
+
+.card p {
+    text-align: justify !important;
+}
+
+.card h4 {
+    color: #E7662C !important;
+}
+
+.navbar-transparente {
+	padding: 10px 0px !important;
+}
+
+ .navbar-toggler {
+    border-color: white !important;
+}
+
+.hamburguer-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 247, 247)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.botoes {
+  letter-spacing: 1px!important;
+  font-weight: bold!important;
+  color: #fff;
+  background-color: #FFCD00!important;
+}
+
+.botoes:hover {
+  color: #E7662C!important;
+  background-color: rgba(0, 153, 208, 0.671)!important;
+}
+
+.carousel-caption h3 {
+  font-size: 20px!important;
+  color: #FFCD00!important;
+}
+
+.carousel-caption p {
+  color: #fff !important;
+  font-size: 20px;
+}
+
+
+/* Estilos para a seção de contato */
+#contato {
+    background-color: #f0f0f0 !important;
+    padding: 50px !important;
+    margin: 0;
+    padding: 0;
+  }
+
+.contato-form {
+    height: auto!important;
+    margin: 2% 0.1% !important;
+    padding: 4% 0% 0% 5% !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    border-radius: 5px !important;
+    
+}
+  
+  /* Estilos para o formulário de contato */
+  
+  .form-label {
+    height: auto!important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-weight: bold !important;
+    color: #E7662C !important;
+  }
+  
+  .form-control {
+    padding: 0;
+    margin: 0;
+    width: 90% !important;
+    padding: 10px !important;
+  }
+
+  .botao-enviar {
+    margin: 0 0 3% 0 !important;
+  }
+  
+  /* Estilos para a seção de redes sociais e endereço */
+  .contato-rede {
+    padding: 0 !important;
+    margin: 2% 0.1% !important;
+    flex: 1 !important;
+    text-align: center !important;
+
+  }
+  
+  .conteudo-contato {
+    padding: 20px !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc!important;
+    border-radius: 5px !important;
+  }
+  
+  /* Estilos para os ícones de redes sociais */
+  .contato-sociais {
+    display: flex !important;
+    justify-content: space-around !important;
+    margin: 20px 0 !important;
+  }
+  
+  /* Estilos para os títulos das redes sociais */
+  h3 {
+    font-size: 15px !important;
+    color: #E7662C !important;
+  }
+  
+  /* Estilos para o mapa incorporado */
+  .contato-endereco {
+    margin-top: 20px !important;
+  }
+  
+  iframe {
+    width: 100% !important;
+    height: 250px !important;
+    border: 0 !important;
+  }
+  
+footer {
+    text-align: center !important;
+    background-color: #E7662C !important;
+    color: white !important;
+    padding: 1em !important;
+}
