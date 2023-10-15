@@ -52,6 +52,58 @@ form .botoes {
     max-height: 600px !important;
 }
 
+/* Estilos para tornar o site responsivo em telas menores */
+
+/* Tornar a barra de navegação mais compacta em dispositivos móveis */
+@media (max-width: 768px) {
+  .navbar-nav {
+      flex-direction: column;
+  }
+  .nav-link {
+      padding: 0.5rem 0;
+      text-align: center;
+  }
+}
+
+/* Estilos para as imagens nos cards de pacotes */
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adicionar margem inferior aos elementos de divisão para separá-los melhor */
+.divisao {
+  margin-bottom: 20px;
+}
+
+/* Estilos para o formulário de contato */
+.contato-form {
+  padding: 15px;
+}
+
+/* Estilos para o mapa incorporado */
+.contato-endereco iframe {
+  width: 100%;
+}
+
+/* Estilos para o rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Adicionar margens para espaçar melhor os elementos */
+@media (max-width: 768px) {
+  .card {
+      margin-bottom: 20px;
+  }
+  .contato-rede > div {
+      margin-bottom: 20px;
+  }
+}
+
 .divisao {
     background-color: #E7662C !important;
 }
