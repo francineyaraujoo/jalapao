@@ -197,15 +197,3 @@ footer {
     color: white !important;
     padding: 1em !important;
 }
-
-/* Estilos para dispositivos móveis */
-@media (max-width: 768px) {
-  .img-car {
-    max-height: 300px !important; /* Ajuste a altura máxima das imagens de acordo com suas preferências */
-    width: auto !important; /* Redimensiona as imagens proporcionalmente à altura */
-  }
-
-  .carousel-caption {
-    text-align: center !important; /* Centraliza o texto */
-  }
-}
