@@ -117,6 +117,10 @@ form .botoes {
   background-color: rgba(0, 153, 208, 0.671)!important;
 }
 
+.carousel-caption {
+  background-color: #e7672c80;
+}
+
 .carousel-caption h3 {
   font-size: 20px!important;
   color: #FFCD00!important;
