@@ -7,21 +7,28 @@ body {
     background-color: #E7662C !important;
 }
 
+.nav-menu {
+  padding: 10px 5px 10px 5px !important;
+
+}
+
 .navbar-nav {
   padding: 0;
   margin: 0;
 }
 
 .navbar-nav .nav-item {
-  background-color: #FFCD00;
+  
   margin: 5px;
   border-radius: 5px;
 }
 
 .navbar-nav .nav-item .nav-link {
+  margin: 0;
   font-weight: bold;
   letter-spacing: 1px;
   color: #fff;
+  background-color: #FFCD00;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -39,6 +46,11 @@ form .botoes {
 .botao-pesquisa {
   padding: 2% !important;
   margin: 0% 2% 1 !important;
+}
+
+.botao-pesquisa:hover {
+  color: #E7662C !important;
+  background-color: rgba(0, 153, 208, 0.671) !important;
 }
 
 .form-pesquisa {
