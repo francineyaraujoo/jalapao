@@ -19,22 +19,22 @@ body {
 
 .navbar-nav .nav-item {
   
-  margin: 5px;
-  border-radius: 5px;
+  margin: 5px !important;
+  border-radius: 5px !important;
 }
 
 .navbar-nav .nav-item .nav-link {
   margin: 0;
-  font-weight: bold;
-  letter-spacing: 1px;
-  color: #fff;
-  background-color: #FFCD00;
+  font-weight: bold !important;
+  letter-spacing: 1px !important;
+  color: #fff !important;
+  background-color: #FFCD00 !important;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  background-color: rgba(0, 153, 208, 0.671);
-  border-radius: 5px;
-  color: #E7662C;
+  background-color: rgba(0, 153, 208, 0.671) !important;
+  border-radius: 5px !important;
+  color: #E7662C !important;
   
 }
 
