@@ -44,6 +44,10 @@ form .botoes {
 }
 
 .botao-pesquisa {
+  color: #fff !important;
+  background-color: #FFCD00 !important;
+  font-weight: bold !important;
+  letter-spacing: 1px !important;
   padding: 2% !important;
   margin: 0% 2% 1 !important;
 }
