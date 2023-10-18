@@ -119,6 +119,7 @@ form .botoes {
 }
 
 .carousel-caption {
+  width: auto;
   background-color: #e7672c80;
 }
 
