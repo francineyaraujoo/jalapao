@@ -66,6 +66,7 @@ form .botoes {
 
 .img-car {
     max-height: 600px !important;
+    max-width: 1430px;
 }
 
 .divisao {
@@ -128,7 +129,7 @@ form .botoes {
 
 .carousel-caption p {
   color: #fff !important;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 
