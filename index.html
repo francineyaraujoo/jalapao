@@ -133,16 +133,16 @@
         <div class="col-sm-6 contato-form">
             <form action="">
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nome:</label>
-                    <input type="text" style="color: #E7662C;" class="form-control" id="exampleFormControlInput1" required placeholder="Nome">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" style="color: #E7662C;" class="form-control" id="nome" required placeholder="Nome">
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Insira seu e-mail:</label>
-                  <input type="email" style="color: #E7662C;" class="form-control" id="exampleFormControlInput1" required placeholder="name@example.com">
+                  <label for="email" class="form-label">Insira seu e-mail:</label>
+                  <input type="email" style="color: #E7662C;" class="form-control" id="email" required placeholder="name@example.com">
               </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
-                    <textarea class="form-control" style="color: #E7662C;" id="exampleFormControlTextarea1" required rows="3"></textarea>
+                    <label for="msg" class="form-label">Mensagem:</label>
+                    <textarea class="form-control" style="color: #E7662C;" id="msg" required rows="3"></textarea>
                 </div>
                 <button type="submit" class="btn botoes botao-enviar">Enviar</button>
             </form>
@@ -173,5 +173,21 @@
 </body>
 
     <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var form = document.querySelector("form");
+    form.addEventListener("submit", function(event) {
+      var nome = document.getElementById("nome").value;
+      var email = document.getElementById("email").value;
+      var mensagem = document.getElementById("msg").value;
+
+      if (nome === "" || email === "" || mensagem === "") {
+        alert("Por favor, preencha todos os campos.");
+        event.preventDefault(); // Impede o envio do formulário
+      }
+    });
+  });
+    </script>
 </html>
